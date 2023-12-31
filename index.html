@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="'viewport" content="'with=device-width, inital-scale=1.0">
+    <title>Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="Img/Agape.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href=>HOME</a></li>
+                <li><a href=>ABOUT</a></li>
+                <li><a href=>CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Agape Electric</h1>
+    <p> Welcome to Agape Electric where excellence, <br> is a given!</p>
+    <a href="" class="hero-btn"> Contact Us </a>
+</div>
+        
+</section>
+
+<!-------- Residential ------>
+
+<section class="residential">
+    <h1>Residential Work</h1>
+
+    <div class="row">
+        <div class="residential-col">
+            <h3>Type A</h3>
+            <p>Type A explain</p>
+        </div>
+        <div class="residential-col">
+            <h3>Type B</h3>
+            <p>Type B explain</p>
+        </div>
+        <div class="residential-col">
+            <h3>Type C</h3>
+            <p>Type C explain</p>
+        </div>
+    </div>
+</section>
+
+<!------- Commercial ------->
+
+<section class = "commercial">
+    <h1>Text</h1>
+
+    <div class = "row">
+            <div class="row-col">
+                <img src="Img/KitchenPicture.png" alt="">
+                <div class="layer">
+                    <h3>Text</h3>
+                </div>
+            </div>
+            <div class="row-col">
+                <img src="Img/KitchenPicture.png" alt="">
+                <div class="layer">
+                    <h3>Text</h3>
+                </div>
+            </div>
+            <div class="row-col">
+                <img src="Img/KitchenPicture.png" alt="">
+                <div class="layer">
+                    <h3>Text</h3>
+                </div>
+            </div>
+
+    </div>
+
+</section>
+
+<!-------- Facilities --------->
+
+<section class="facilities">
+    <h1>Text</h1>
+    <p>Text</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Img/Gen.png" alt="">
+            <h3>Text</h3>
+            <p>Text</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Img/Gen.png" alt="">
+            <h3>Text</h3>
+            <p>Text</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Img/Gen.png" alt="">
+            <h3>Text</h3>
+            <p>Text</p>
+        </div>
+    </div>
+
+</section>
+
+<!--------- Reviews -------->
+
+<section class="review">
+    <h1>Text</h1>
+    <p>Text</p>
+
+    <div class="row">
+        <div class="review-col">
+            <img src="Img/Robot.png" alt="img">
+            <div>
+                <p>Paragraph(Review)</p>
+                <h3>(Name)</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="review-col">
+            <img src="Img/Robot.png" alt="img">
+            <div>
+                <p>Paragraph(Review)</p>
+                <h3>(Name)</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!------- Call To Action ------->
+
+<section class="cta">
+    <h1>Text1</h1>
+    <a href="" class="hero-btn">Text</a>
+</section>
+
+<!------- Footer ------->
+
+<section class="footer">
+    <h4>Text</h4>
+    <p>Text <br> Text </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
